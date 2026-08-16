@@ -1,6 +1,6 @@
 # SprachBrücke – AI-Powered Translator App 🌍
 
-SprachBrücke is a modern Android translation application designed for seamless face-to-face communication. It leverages Google's Gemini AI for high-quality translations and Android's On-Device Speech Recognition for fast, reliable input.
+SprachBrücke is a modern Android translation application designed for seamless face-to-face communication. It leverages Google's Gemini AI for high-quality translations and Android's On-Device Speech Recognition for fast, reliable input!
 
 ## ✨ Features
 
