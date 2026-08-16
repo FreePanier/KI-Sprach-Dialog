@@ -1,0 +1,12 @@
+# === GOOGLE / GEMINI API ===
+# Erhalte deinen API Key unter: https://aistudio.google.com/
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
+
+# Standard Modell (z.B. gemini-1.5-flash oder gemini-2.0-flash-exp)
+GEMINI_MODEL=gemini-1.5-flash
+
+# Optional: Google Client ID für erweiterte Dienste
+GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID_HERE
+
+# Lokaler SDK Pfad (Wird normalerweise von Android Studio automatisch gesetzt)
+# sdk.dir=C\:/Users/YourName/AppData/Local/Android/Sdk
