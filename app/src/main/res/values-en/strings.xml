@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Language Bridge</string>
+    <string name="tap_to_speak">Tap to speak</string>
+    <string name="listening">Listening…</string>
+    <string name="translating">Translating…</string>
+    <string name="settings">Settings</string>
+    <string name="save_conversation">Save conversation</string>
+    <string name="clear_conversation">Clear conversation</string>
+    <string name="language_top">Top language</string>
+    <string name="language_bottom">Bottom language</string>
+    <string name="mic_permission_needed">Microphone permission required</string>
+    <string name="cloud_mode">Cloud translation</string>
+    <string name="on_device_mode">Offline translation</string>
+    <string name="error_mode">Error</string>
+    <string name="layout">Layout</string>
+    <string name="text_rotation">Text orientation</string>
+    <string name="rotation_normal">Normal</string>
+    <string name="rotation_flipped">Flipped 180°</string>
+    <string name="background_color">Background color</string>
+    <string name="dark_mode">Dark</string>
+    <string name="light_mode">Light</string>
+    <string name="font_size">Font size</string>
+    <string name="font_color">Font color</string>
+    <string name="app_language">App Language</string>
+    <string name="about_app">About the app</string>
+    <string name="version">Version</string>
+    <string name="model">AI Model</string>
+    <string name="speech_recognition">Speech recognition</string>
+    <string name="download_now">Download now</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="greeting_text">Please speak slowly and in short sentences</string>
+    <string name="update">Update</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="current_version">Current version</string>
+    <string name="latest_version">Available version</string>
+    <string name="update_later_msg">Will be implemented later</string>
+</resources>

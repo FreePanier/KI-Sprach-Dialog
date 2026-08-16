@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puente de Idiomas</string>
+    <string name="tap_to_speak">Toca para hablar</string>
+    <string name="listening">Escuchando…</string>
+    <string name="translating">Traduciendo…</string>
+    <string name="settings">Ajustes</string>
+    <string name="save_conversation">Guardar conversación</string>
+    <string name="clear_conversation">Borrar conversación</string>
+    <string name="language_top">Idioma superior</string>
+    <string name="language_bottom">Idioma inferior</string>
+    <string name="mic_permission_needed">Se requiere permiso del micrófono</string>
+    <string name="cloud_mode">Traducción en la nube</string>
+    <string name="on_device_mode">Traducción sin conexión</string>
+    <string name="error_mode">Error</string>
+    <string name="layout">Diseño</string>
+    <string name="text_rotation">Orientación del texto</string>
+    <string name="rotation_normal">Normal</string>
+    <string name="rotation_flipped">Girado 180°</string>
+    <string name="background_color">Color de fondo</string>
+    <string name="dark_mode">Oscuro</string>
+    <string name="light_mode">Claro</string>
+    <string name="font_size">Tamaño de fuente</string>
+    <string name="font_color">Color de fuente</string>
+    <string name="app_language">Idioma de la aplicación</string>
+    <string name="about_app">Acerca de la aplicación</string>
+    <string name="version">Versión</string>
+    <string name="model">Modelo de IA</string>
+    <string name="speech_recognition">Reconocimiento de voz</string>
+    <string name="download_now">Descargar ahora</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="greeting_text">Por favor, hable despacio y con frases cortas</string>
+    <string name="update">Actualizar</string>
+    <string name="check_for_updates">Buscar actualizaciones</string>
+    <string name="current_version">Versión actual</string>
+    <string name="latest_version">Versión disponible</string>
+    <string name="update_later_msg">Se implementará más adelante</string>
+</resources>

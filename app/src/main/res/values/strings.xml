@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SprachBrücke</string>
+    <string name="tap_to_speak">Tippen zum Sprechen</string>
+    <string name="listening">Höre zu…</string>
+    <string name="translating">Übersetze…</string>
+    <string name="settings">Einstellungen</string>
+    <string name="save_conversation">Gespräch speichern</string>
+    <string name="clear_conversation">Gespräch löschen</string>
+    <string name="language_top">Sprache oben</string>
+    <string name="language_bottom">Sprache unten</string>
+    <string name="mic_permission_needed">Mikrofon-Berechtigung wird benötigt</string>
+    <string name="cloud_mode">Cloud-Übersetzung</string>
+    <string name="on_device_mode">Offline-Übersetzung</string>
+    <string name="error_mode">Fehler</string>
+    <string name="layout">Layout</string>
+    <string name="text_rotation">Textausrichtung</string>
+    <string name="rotation_normal">Normal</string>
+    <string name="rotation_flipped">Um 180° gedreht</string>
+    <string name="background_color">Hintergrundfarbe</string>
+    <string name="dark_mode">Dunkel</string>
+    <string name="light_mode">Hell</string>
+    <string name="font_size">Schriftgröße</string>
+    <string name="font_color">Schriftfarbe</string>
+    <string name="app_language">App-Sprache</string>
+    <string name="about_app">Über die App</string>
+    <string name="version">Version</string>
+    <string name="model">KI-Modell</string>
+    <string name="speech_recognition">Spracherkennung</string>
+    <string name="download_now">Jetzt laden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="greeting_text">Bitte langsam und in kurzen Sätzen sprechen</string>
+    <string name="update">Update</string>
+    <string name="check_for_updates">Nach Updates suchen</string>
+    <string name="current_version">Aktuelle Version</string>
+    <string name="latest_version">Verfügbare Version</string>
+    <string name="update_later_msg">Wird später implementiert</string>
+</resources>

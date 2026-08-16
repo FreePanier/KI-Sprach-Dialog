@@ -1,0 +1,6 @@
+﻿# Geheime Schlüssel – NICHT in Git hochladen!
+# Kopiere diese Datei nach local.properties und trage deinen Key ein.
+GEMINI_API_KEY=DEIN_GEMINI_API_KEY_HIER_EINTRAGEN
+
+# SDK Pfad wird von Android Studio automatisch gesetzt
+# sdk.dir=C\:\\Users\\USERNAME\\AppData\\Local\\Android\\Sdk

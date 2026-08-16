@@ -1,0 +1,91 @@
+﻿package com.sprachbruecke.translator.ui
+
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import com.sprachbruecke.translator.data.LanguageOption
+import com.sprachbruecke.translator.data.SUPPORTED_LANGUAGES
+
+/**
+ * Dialog zur Sprachauswahl aus allen unterstützten Sprachen.
+ * Senior-freundlich: große Schrift, großzügige Touch-Ziele.
+ */
+@Composable
+fun LanguagePickerDialog(
+    title: String,
+    currentLanguage: LanguageOption,
+    onLanguageSelected: (LanguageOption) -> Unit,
+    onDismiss: () -> Unit
+) {
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .fillMaxHeight(0.8f),
+            elevation = CardDefaults.cardElevation(8.dp)
+        ) {
+            Column(modifier = Modifier.padding(16.dp)) {
+                // Titel
+                Text(
+                    text = title,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier.padding(bottom = 12.dp)
+                )
+
+                HorizontalDivider()
+
+                // Sprachliste
+                LazyColumn(modifier = Modifier.weight(1f)) {
+                    items(SUPPORTED_LANGUAGES) { lang ->
+                        val isSelected = lang.localeCode == currentLanguage.localeCode
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable {
+                                    onLanguageSelected(lang)
+                                    onDismiss()
+                                }
+                                .padding(vertical = 14.dp, horizontal = 8.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(12.dp)
+                        ) {
+                            Text(text = lang.flag, fontSize = 28.sp)
+                            Text(
+                                text = lang.displayName,
+                                style = MaterialTheme.typography.bodyLarge,
+                                fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
+                                color = if (isSelected) MaterialTheme.colorScheme.primary
+                                        else MaterialTheme.colorScheme.onSurface,
+                                modifier = Modifier.weight(1f)
+                            )
+                            if (isSelected) {
+                                Text("✓", color = MaterialTheme.colorScheme.primary, fontSize = 20.sp)
+                            }
+                        }
+                        HorizontalDivider(color = MaterialTheme.colorScheme.surfaceVariant)
+                    }
+                }
+
+                // Abbrechen
+                TextButton(
+                    onClick = onDismiss,
+                    modifier = Modifier
+                        .align(Alignment.End)
+                        .padding(top = 8.dp)
+                ) {
+                    Text("Abbrechen", fontSize = 16.sp)
+                }
+            }
+        }
+    }
+}

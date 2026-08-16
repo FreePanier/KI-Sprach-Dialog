@@ -1,0 +1,24 @@
+﻿# Gradle files
+.gradle/
+build/
+
+# Local properties (API Keys etc. – NICHT committen!)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+.DS_Store
+
+# APK/AAB output
+*.apk
+*.aab
+*.ap_
+app/release/
+
+# Keystore
+*.jks
+*.keystore
+
+# Logs
+*.log
